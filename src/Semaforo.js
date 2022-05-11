@@ -12,14 +12,14 @@ const Semaforo = () => {
 
         <div className="container">
             <div className="semaforo">
-                <span className="circulos1" onClick={() => {
-                    setColor("green")
+                <span className="circulos3" onClick={() => {
+                    setColor("red")
                 }}></span>
                 <span className="circulos2" onClick={() => {
                     setColor("yellow")
                 }}></span>
-                <span className="circulos3" onClick={() => {
-                    setColor("red")
+                <span className="circulos1" onClick={() => {
+                    setColor("green")
                 }}></span>
             </div>
         </div>
