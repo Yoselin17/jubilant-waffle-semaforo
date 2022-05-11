@@ -1,0 +1,70 @@
+
+
+body{
+
+  width: 50%;
+  height: 100vh;
+  display: grid;
+  background-color: rgb(170, 167, 167);
+}
+
+.container{
+
+  display:grid;
+  place-items: center;
+}
+
+.semaforo{
+
+  width:130px ;
+  height: 500px;
+  border-radius: 30px;
+  display:flex;
+  background-color: black;
+  padding: 30px;
+
+
+}
+
+.circulos1{
+
+  display: block;
+  width: 110px;
+  height: 110px;
+  border-radius:50% ;
+  background-color: green;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+
+}
+
+.circulos2{
+
+  display: block;
+  width: 110px;
+  height: 110px;
+  border-radius:60% ;
+  background-color: orangered;
+  position: absolute;
+  top: 260px;
+  right: 990px;
+  
+  
+
+}
+
+.circulos3{
+
+  display: block;
+  width: 110px;
+  height: 110px;
+  border-radius:60% ;
+  background-color: red;
+  position: absolute;
+  top: 120px;
+  right:990px;
+  
+  
+
+}
