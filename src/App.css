@@ -51,6 +51,7 @@ body{
   
   
 
+
 }
 
 .circulos3{
@@ -63,5 +64,40 @@ body{
   
   
   
+
+}
+
+.brillanteRed{
+
+  display: block;
+  width: 110px;
+  height: 110px;
+  border-radius:60% ;
+  background-color: red;
+  
+  box-shadow: 2px 2px 2px 1px rgba(246, 244, 244, 0.676)
+}
+
+.brillanteYellow{
+
+  display: block;
+  width: 110px;
+  height: 110px;
+  border-radius:60% ;
+  background-color: orangered;
+  
+  box-shadow: 2px 2px 2px 1px rgba(246, 244, 244, 0.676)
+
+}
+
+.brillanteGreen{
+
+  display: block;
+  width: 110px;
+  height: 110px;
+  border-radius:50% ;
+  background-color: green;
+  
+  box-shadow: 2px 2px 2px 1px rgba(246, 244, 244, 0.676)
 
 }
